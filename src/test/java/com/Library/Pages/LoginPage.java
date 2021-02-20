@@ -19,6 +19,15 @@ public class LoginPage
         @FindBy(xpath = "//*[@id=\"menu_item\"]/li[1]/a/span[1]")
         public WebElement LoginBookTitle;
 
+        @FindBy(xpath = "//*[@id=\"menu_item\"]/li[1]/a/span[1]")
+        public WebElement LoginDashBoardTitle;
+        @FindBy(xpath = "//*[.='Log Out']")
+        public WebElement LogOutLink;
+
+        @FindBy(id = "navbarDropdown")
+        public WebElement userTitle;
+
+
         @FindBy(id = "inputEmail")
         public WebElement userEmail;
         @FindBy(id = "inputPassword")
