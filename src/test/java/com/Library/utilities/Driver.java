@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import javax.security.auth.login.Configuration;
 import java.util.concurrent.TimeUnit;
 
 public class Driver
@@ -23,7 +22,7 @@ public class Driver
             {
                 if (driver == null)
                     {
-                        String browser = ConfigurationReader.getProperty("brpwser");
+                        String browser = ConfigurationReader.getProperty("browser");
                         switch (browser)
                             {
                                 case "chrome":
