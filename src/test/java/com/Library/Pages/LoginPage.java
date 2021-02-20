@@ -33,15 +33,17 @@ public class LoginPage
         @FindBy(id = "inputPassword")
         public WebElement userPassword;
 
+        @FindBy(id = "//*[@id='menu_item']/li[2]/a/span[1]")
+        public WebElement UserLink;
+
+
+
 
         public void login(String userName,String Password)
         {
             userEmail.sendKeys(userName);
             userPassword.sendKeys(Password, Keys.ENTER);
         }
-
-
-
 
 
 

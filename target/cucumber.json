@@ -1,35 +1,56 @@
 [
   {
-    "line": 1,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-02-20T19:40:37.911Z",
-        "line": 13,
-        "name": "user login verification",
+        "line": 5,
+        "name": "User is already in login page",
         "description": "",
-        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;2",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2607000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-20T23:26:14.353Z",
+        "line": 18,
+        "name": "As a user, I should be able to  see several modules once I login.",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3950000000,
+              "duration": 99000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user on login page",
+            "line": 10,
+            "name": "user is on the login page",
             "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 255000000,
+              "duration": 233000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user enter \"student102@library\" and  \"Aaf6GwsY\"",
+            "line": 11,
+            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
             "match": {
               "arguments": [
                 {
@@ -38,35 +59,35 @@
                 },
                 {
                   "val": "\"Aaf6GwsY\"",
-                  "offset": 37
+                  "offset": 36
                 }
               ],
-              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1494000000,
+              "duration": 2202000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user Logout from homePage",
+            "line": 12,
+            "name": "the user should see following modules",
             "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1788000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user on login page",
-            "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
-            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -77,85 +98,32 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-20T19:40:45.533Z",
-        "line": 14,
-        "name": "user login verification",
+        "line": 5,
+        "name": "User is already in login page",
         "description": "",
-        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 102000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user on login page",
-            "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 211000000,
+              "duration": 1954000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user enter \"student103@library\" and  \"7zWoKREA\"",
+            "name": "user is on the login page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"student103@library\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"7zWoKREA\"",
-                  "offset": 37
-                }
-              ],
-              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
             },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1542000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user Logout from homePage",
-            "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1886000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user on login page",
-            "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
+            "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-02-20T19:40:49.281Z",
-        "line": 15,
-        "name": "user login verification",
+        "start_timestamp": "2021-02-20T23:26:19.525Z",
+        "line": 19,
+        "name": "As a user, I should be able to  see several modules once I login.",
         "description": "",
-        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;4",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -164,57 +132,57 @@
               "duration": 101000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user on login page",
+            "line": 10,
+            "name": "user is on the login page",
             "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 211000000,
+              "duration": 201000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user enter \"student104@library\" and  \"73ndoZd0\"",
+            "line": 11,
+            "name": "user enter \"student103@library\" and \"7zWoKREA\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"student104@library\"",
+                  "val": "\"student103@library\"",
                   "offset": 11
                 },
                 {
-                  "val": "\"73ndoZd0\"",
-                  "offset": 37
+                  "val": "\"7zWoKREA\"",
+                  "offset": 36
                 }
               ],
-              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1474000000,
+              "duration": 2177000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user Logout from homePage",
+            "line": 12,
+            "name": "the user should see following modules",
             "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1888000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user on login page",
-            "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
-            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -225,70 +193,179 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-20T19:40:52.964Z",
-        "line": 16,
-        "name": "user login verification",
+        "line": 5,
+        "name": "User is already in login page",
         "description": "",
-        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;5",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1730000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-20T23:26:23.966Z",
+        "line": 20,
+        "name": "As a user, I should be able to  see several modules once I login.",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 110000000,
+              "duration": 102000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user on login page",
+            "line": 10,
+            "name": "user is on the login page",
             "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 224000000,
+              "duration": 193000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user enter \"librarian14@library\" and  \"87x8afWY\"",
+            "line": 11,
+            "name": "user enter \"student104@library\" and \"73ndoZd0\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"librarian14@library\"",
+                  "val": "\"student104@library\"",
                   "offset": 11
                 },
                 {
-                  "val": "\"87x8afWY\"",
-                  "offset": 38
+                  "val": "\"73ndoZd0\"",
+                  "offset": 36
                 }
               ],
-              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1441000000,
+              "duration": 2205000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user Logout from homePage",
+            "line": 12,
+            "name": "the user should see following modules",
             "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1875000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-20T23:26:28.202Z",
+        "line": 23,
+        "name": "Librarians  should have access to 3 modules",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;librarians--should-have-access-to-3-modules",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 210000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clibrarianEmail\u003e\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.librarianEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 1907000000,
+              "duration": 2208000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user on login page",
+            "line": 25,
+            "name": "the user should see following modules",
             "match": {
-              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Dashboard"
+                ]
+              },
+              {
+                "cells": [
+                  "Users"
+                ]
+              },
+              {
+                "cells": [
+                  "Books"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -299,11 +376,20 @@
         ]
       }
     ],
-    "name": "As a user ,I should be see home page",
+    "name": "Student should be able to access modules",
     "description": "",
-    "id": "as-a-user--i-should-be-see-home-page",
+    "id": "student-should-be-able-to-access-modules",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/LogOut.feature",
-    "tags": []
+    "uri": "file:src/test/resources/feature/StudentModulesAccess.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
