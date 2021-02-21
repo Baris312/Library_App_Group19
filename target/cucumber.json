@@ -1,22 +1,22 @@
 [
   {
-    "line": 4,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-02-21T17:13:20.569Z",
-        "line": 8,
-        "name": "As a librarian, I should be able to add users from users page",
+        "start_timestamp": "2021-02-21T17:37:56.198Z",
+        "line": 6,
+        "name": "user management table columns names",
         "description": "",
-        "id": "verification-of-user-categories;as-a-librarian--i-should-be-able-to-add-users-from-users-page",
+        "id": "user-management-table-feature;user-management-table-columns-names",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3099000000,
+              "duration": 3127000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "user is on the login page",
             "match": {
               "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
@@ -25,10 +25,10 @@
           },
           {
             "result": {
-              "duration": 297000000,
+              "duration": 269000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
             "match": {
               "arguments": [
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 2096000000,
+              "duration": 2097000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "Librarians click on UserTitle  link",
             "match": {
               "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librariansClickOnUserTitleLink()"
@@ -59,40 +59,43 @@
           },
           {
             "result": {
-              "duration": 1106000000,
+              "duration": 421000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Librarians click on User Group dropdown",
+            "line": 11,
+            "name": "the user should  see the following column names:",
             "match": {
-              "location": "com.Library.step_definition.Task9_UserVerification_step_definition.librarians_click_on_user_group_dropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2122000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user should see the following options:",
-            "match": {
-              "location": "com.Library.step_definition.Task9_UserVerification_step_definition.user_should_see_the_following_options(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library.step_definition.Task10_UserManagementTable_step_definition.the_user_should_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "ALL"
+                  "Actions"
                 ]
               },
               {
                 "cells": [
-                  "Librarian"
+                  "User ID"
                 ]
               },
               {
                 "cells": [
-                  "Students"
+                  "Full Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Email"
+                ]
+              },
+              {
+                "cells": [
+                  "Group"
+                ]
+              },
+              {
+                "cells": [
+                  "Status"
                 ]
               }
             ],
@@ -106,17 +109,17 @@
         ]
       }
     ],
-    "name": "Verification of user categories",
+    "name": "user management table feature",
     "description": "",
-    "id": "verification-of-user-categories",
+    "id": "user-management-table-feature",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/LibrarianUserVerification.feature",
+    "uri": "file:src/test/resources/feature/UserManagerTable.feature",
     "tags": [
       {
         "name": "@wip",
         "type": "Tag",
         "location": {
-          "line": 3,
+          "line": 2,
           "column": 1
         }
       }

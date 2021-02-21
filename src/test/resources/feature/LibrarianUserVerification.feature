@@ -1,6 +1,6 @@
 
 
-@wip
+
 Feature: Verification of user categories
 
 
