@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class LoginPage extends Librarian_User_page
     {
 
@@ -40,12 +42,17 @@ public class LoginPage extends Librarian_User_page
         @FindBy(xpath = "//*[@id='menu_item']/li[2]/a/span[1]")
         public WebElement UserLink;
 
+        @FindBy(xpath = "//*[@id=\"menu_item\"]/li[2]/a/span[1]")
+        public WebElement BorrowingBookLink;
+
         @FindBy(id = "book_categories")
         public WebElement bookCategories;
 
         @FindBy(xpath = "//*[@id=\"login-form\"]/div[4]/label")
         public WebElement loginPassWord;
 
+        @FindBy(xpath = "//th")
+        public List<WebElement> BorrowingBookHeader;
 
         public void login(String userName,String Password)
         {

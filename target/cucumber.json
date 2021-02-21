@@ -1,43 +1,34 @@
 [
   {
-    "line": 3,
+    "line": 1,
     "elements": [
       {
-        "line": 6,
-        "name": "User is already in login page",
+        "start_timestamp": "2021-02-21T16:51:58.962Z",
+        "line": 21,
+        "name": "borrowing books table columns names",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3742000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-21T15:52:48.430Z",
-        "line": 38,
-        "name": "As a student I should be able to search books with different categories",
-        "description": "",
-        "id": "as-a-student-i-should-be-able-to-search-books;as-a-student-i-should-be-able-to-search-books-with-different-categories;user-login-info;2",
+        "id": "as-a-user--i-should-able-to-see-my-borrowing-books.;borrowing-books-table-columns-names;user-login-info;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1274000000,
+              "duration": 3503000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1348000000,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
             "match": {
               "arguments": [
@@ -56,130 +47,55 @@
           },
           {
             "result": {
-              "duration": 999000000,
+              "duration": 937000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "student click on Book Categories",
+            "line": 8,
+            "name": "the user click Borrowing Books module",
             "match": {
-              "location": "com.Library.step_definition.Task7_bookcategories_step_definition.student_click_on_book_categories()"
+              "location": "com.Library.step_definition.Task8_BorrowingBook_step_definitions.the_user_click_borrowing_books_module()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1304000000,
+              "duration": 1299000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "user sees All options",
+            "line": 9,
+            "name": "the user shoulde see the following column names:",
             "match": {
-              "location": "com.Library.step_definition.Task7_bookcategories_step_definition.user_sees_all_options(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library.step_definition.Task8_BorrowingBook_step_definitions.the_user_shoulde_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "ALL"
+                  "Action"
                 ]
               },
               {
                 "cells": [
-                  "Action and Adventure"
+                  "Book Name"
                 ]
               },
               {
                 "cells": [
-                  "Anthology"
+                  "Borrowed Date"
                 ]
               },
               {
                 "cells": [
-                  "Classic"
+                  "Planned Return Date"
                 ]
               },
               {
                 "cells": [
-                  "Comic and Graphic Novel"
+                  "Return Date"
                 ]
               },
               {
                 "cells": [
-                  "Crime and Detective"
-                ]
-              },
-              {
-                "cells": [
-                  "Drama"
-                ]
-              },
-              {
-                "cells": [
-                  "Fable"
-                ]
-              },
-              {
-                "cells": [
-                  "Fairy Tale"
-                ]
-              },
-              {
-                "cells": [
-                  "Fan-Fiction"
-                ]
-              },
-              {
-                "cells": [
-                  "Fantasy"
-                ]
-              },
-              {
-                "cells": [
-                  "Historical Fiction"
-                ]
-              },
-              {
-                "cells": [
-                  "Horror"
-                ]
-              },
-              {
-                "cells": [
-                  "Science Fiction"
-                ]
-              },
-              {
-                "cells": [
-                  "Biography/Autobiography"
-                ]
-              },
-              {
-                "cells": [
-                  "Humor"
-                ]
-              },
-              {
-                "cells": [
-                  "Romance"
-                ]
-              },
-              {
-                "cells": [
-                  "Short Story"
-                ]
-              },
-              {
-                "cells": [
-                  "Essay"
-                ]
-              },
-              {
-                "cells": [
-                  "Memoir"
-                ]
-              },
-              {
-                "cells": [
-                  "Poetry"
+                  "Is Returned ?"
                 ]
               }
             ],
@@ -193,20 +109,11 @@
         ]
       }
     ],
-    "name": "As a student I should be able to search books",
+    "name": "As a user, I should able to see my borrowing books.",
     "description": "",
-    "id": "as-a-student-i-should-be-able-to-search-books",
+    "id": "as-a-user--i-should-able-to-see-my-borrowing-books.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/Bookcategories.feature",
-    "tags": [
-      {
-        "name": "@wip",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/feature/BorrwingBook.feature",
+    "tags": []
   }
 ]
