@@ -1,22 +1,22 @@
 [
   {
-    "line": 1,
+    "line": 4,
     "elements": [
       {
-        "start_timestamp": "2021-02-21T16:51:58.962Z",
-        "line": 21,
-        "name": "borrowing books table columns names",
+        "start_timestamp": "2021-02-21T17:13:20.569Z",
+        "line": 8,
+        "name": "As a librarian, I should be able to add users from users page",
         "description": "",
-        "id": "as-a-user--i-should-able-to-see-my-borrowing-books.;borrowing-books-table-columns-names;user-login-info;2",
+        "id": "verification-of-user-categories;as-a-librarian--i-should-be-able-to-add-users-from-users-page",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3503000000,
+              "duration": 3099000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 9,
             "name": "user is on the login page",
             "match": {
               "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
@@ -25,77 +25,74 @@
           },
           {
             "result": {
-              "duration": 1348000000,
+              "duration": 297000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
+            "line": 10,
+            "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"student102@library\"",
-                  "offset": 11
+                  "val": "\"\u003clibrarianEmail\u003e\"",
+                  "offset": 16
                 },
                 {
-                  "val": "\"Aaf6GwsY\"",
-                  "offset": 36
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 39
                 }
               ],
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.librarianEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 937000000,
+              "duration": 2096000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "the user click Borrowing Books module",
+            "line": 11,
+            "name": "Librarians click on UserTitle  link",
             "match": {
-              "location": "com.Library.step_definition.Task8_BorrowingBook_step_definitions.the_user_click_borrowing_books_module()"
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librariansClickOnUserTitleLink()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1299000000,
+              "duration": 1106000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "the user shoulde see the following column names:",
+            "line": 12,
+            "name": "Librarians click on User Group dropdown",
             "match": {
-              "location": "com.Library.step_definition.Task8_BorrowingBook_step_definitions.the_user_shoulde_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library.step_definition.Task9_UserVerification_step_definition.librarians_click_on_user_group_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2122000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see the following options:",
+            "match": {
+              "location": "com.Library.step_definition.Task9_UserVerification_step_definition.user_should_see_the_following_options(java.util.List\u003cjava.lang.String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "Action"
+                  "ALL"
                 ]
               },
               {
                 "cells": [
-                  "Book Name"
+                  "Librarian"
                 ]
               },
               {
                 "cells": [
-                  "Borrowed Date"
-                ]
-              },
-              {
-                "cells": [
-                  "Planned Return Date"
-                ]
-              },
-              {
-                "cells": [
-                  "Return Date"
-                ]
-              },
-              {
-                "cells": [
-                  "Is Returned ?"
+                  "Students"
                 ]
               }
             ],
@@ -109,11 +106,20 @@
         ]
       }
     ],
-    "name": "As a user, I should able to see my borrowing books.",
+    "name": "Verification of user categories",
     "description": "",
-    "id": "as-a-user--i-should-able-to-see-my-borrowing-books.",
+    "id": "verification-of-user-categories",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/BorrwingBook.feature",
-    "tags": []
+    "uri": "file:src/test/resources/feature/LibrarianUserVerification.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 Feature: As a user, I should able to see my borrowing books.
 
-  @wip
+
   Scenario Outline: borrowing books table columns names
 
     Given user is on the login page

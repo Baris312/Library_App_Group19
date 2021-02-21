@@ -42,6 +42,9 @@ public  class Librarian_User_page extends ShowRecordPage
         public WebElement  updatedAlert;
 
 
+        @FindBy (id = "user_groups")
+        public WebElement userGroupLink;
+
 
 
     }
