@@ -1,8 +1,15 @@
+com/Library/step_definition/Task5_ShowRecord_step_definition.class
 com/Library/step_definition/login_step_definition.class
 com/Library/Pages/LoginPage.class
 com/Library/utilities/ConfigurationReader.class
 com/Library/utilities/Driver.class
+com/Library/step_definition/Task4_AddUser_step_definitions.class
 com/Library/Runnur/CukesRunner.class
+com/Library/Runnur/failedTestRunner.class
+com/Library/Pages/ShowRecordPage.class
 com/Library/utilities/BrowserUtil$1.class
+com/Library/step_definition/StudentTable_stpe_definition.class
 com/Library/utilities/BrowserUtil$2.class
+com/Library/Pages/Librarian_User_page.class
 com/Library/utilities/BrowserUtil.class
+com/Library/step_definition/Task3_moduleAccses_step_definition.class

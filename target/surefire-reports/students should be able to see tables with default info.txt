@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: students should be able to see tables with default info
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.845 s <<< FAILURE! - in students should be able to see tables with default info
+students should be able to see tables with default info.student should be able to see tables with default info  Time elapsed: 3.845 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+

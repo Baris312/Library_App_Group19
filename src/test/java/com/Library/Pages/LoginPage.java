@@ -1,5 +1,6 @@
 package com.Library.Pages;
 
+import com.Library.utilities.BrowserUtil;
 import com.Library.utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -33,15 +34,23 @@ public class LoginPage extends Librarian_User_page
         @FindBy(id = "inputPassword")
         public WebElement userPassword;
 
+        @FindBy(xpath = "//*[@id=\"login-form\"]/button")
+        public WebElement signInButton;
+
         @FindBy(xpath = "//*[@id='menu_item']/li[2]/a/span[1]")
         public WebElement UserLink;
 
+        @FindBy(id = "book_categories")
+        public WebElement bookCategories;
 
+        @FindBy(xpath = "//*[@id=\"login-form\"]/div[4]/label")
+        public WebElement loginPassWord;
 
 
         public void login(String userName,String Password)
         {
             userEmail.sendKeys(userName);
+            BrowserUtil.wait(1);
             userPassword.sendKeys(Password, Keys.ENTER);
         }
 

@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Feature: User should be able to add users from users page</title>
+<title>Cucumber Reports (no 1) - Feature: students should be able to see tables with default info</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>20 Feb 2021, 22:52</td>
+      <td>21 Feb 2021, 00:30</td>
     </tr>
   </tbody>
 </table>
@@ -128,20 +128,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">User should be able to add users from users page</td>
-          <td      class="passed"    >9</td>
+          <td class="tagname">students should be able to see tables with default info</td>
+          <td      class="passed"    >1</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td >0</td>
-          <td class="total">9</td>
+          <td class="total">3</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="19252000000">19.252</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="3698000000">3.698</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -175,9 +175,9 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
-  <span class="name">User should be able to add users from users page</span>
+  <span class="name">students should be able to see tables with default info</span>
 
 
 </div>
@@ -190,19 +190,17 @@ $(document).ready(function() {
 
 
 <div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
 </div>
 
 
-  <span class="lead-duration duration">19.252</span>
+  <span class="lead-duration duration">3.487</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">As a librarian, I should be able to add users from users page</span>
+  <span class="keyword indention">Background</span>
+  <span class="name">User is already in login page</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -238,7 +236,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user is on the login page</span>
 
-  <span class="lead-duration duration">3.696</span>
+  <span class="lead-duration duration">3.487</span>
 
 </div>
 
@@ -258,14 +256,70 @@ $(document).ready(function() {
 
 
       </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2149507997.html">@wip</a>
+</div>
+
+
+  <span class="lead-duration duration">0.211</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-3">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">student should be able to see tables with default info</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-3" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-4">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-4" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-When passed">
+<div class="brief step-name-When failed">
   <span class="keyword indention">When</span>
-  <span class="name">Librarian enter <span class="argument">&quot;&lt;librarianEmail&gt;&quot;</span> and <span class="argument">&quot;&lt;Password&gt;&quot;</span></span>
+  <span class="name">user enter userName and password</span>
 
-  <span class="lead-duration duration">0.245</span>
+  <span class="lead-duration duration">0.211</span>
 
 </div>
 
@@ -273,6 +327,28 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-5">
+          <a>java.lang.IllegalArgumentException:</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details  in ">
+        <pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at com.Library.Pages.LoginPage.login(LoginPage.java:50)
+	at com.Library.step_definition.StudentTable_stpe_definition.user_enter_user_name_and_password(StudentTable_stpe_definition.java:27)
+	at &#10045;.user enter userName and password(file:///Users/barisarmagan/Desktop/Library_App_Group19/src/test/resources/feature/StudentTable.feature:9)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -288,11 +364,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
-  <span class="name">Librarians click on UserTitle  link</span>
+  <span class="name">the user should see following names</span>
 
-  <span class="lead-duration duration">2.095</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -302,168 +378,29 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Librarians click on Add User link</span>
-
-  <span class="lead-duration duration">2.085</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Librarians add users with all valid info</span>
-
-  <span class="lead-duration duration">2.699</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Librarians click on close button</span>
-
-  <span class="lead-duration duration">3.080</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Librarians click on Edit User button</span>
-
-  <span class="lead-duration duration">3.088</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Librarians click on Save changes</span>
-
-  <span class="lead-duration duration">2.099</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Librarians sees the user updated  alert</span>
-
-  <span class="lead-duration duration">0.165</span>
-
-</div>
-
-
-
-
-
-
-
+          <table class="step-arguments">
+              <tr>
+                  <td>Actions</td>
+              </tr>
+              <tr>
+                  <td>ISBN</td>
+              </tr>
+              <tr>
+                  <td>Name</td>
+              </tr>
+              <tr>
+                  <td>Author</td>
+              </tr>
+              <tr>
+                  <td>Category</td>
+              </tr>
+              <tr>
+                  <td>Year</td>
+              </tr>
+              <tr>
+                  <td>Borrowed By</td>
+              </tr>
+          </table>
 
 
 

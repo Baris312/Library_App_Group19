@@ -3,20 +3,41 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-02-21T05:45:55.736Z",
-        "line": 6,
-        "name": "verify default record count",
+        "line": 5,
+        "name": "User is already in login page",
         "description": "",
-        "id": "show-record-functionality;verify-default-record-count",
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3525000000,
+              "duration": 4079000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-21T14:56:30.780Z",
+        "line": 23,
+        "name": "student should be able to see tables with default info",
+        "description": "",
+        "id": "students-should-be-able-to-see-tables-with-default-info;student-should-be-able-to-see-tables-with-default-info;user-login-info;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 9,
             "name": "user is on the login page",
             "match": {
               "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
@@ -25,100 +46,70 @@
           },
           {
             "result": {
-              "duration": 432000000,
+              "duration": 1254000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
+            "line": 10,
+            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003clibrarianEmail\u003e\"",
-                  "offset": 16
+                  "val": "\"student102@library\"",
+                  "offset": 11
                 },
                 {
-                  "val": "\"\u003cPassword\u003e\"",
-                  "offset": 39
+                  "val": "\"Aaf6GwsY\"",
+                  "offset": 36
                 }
               ],
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.librarianEnterAnd(java.lang.String,java.lang.String)"
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2108000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Librarians click on UserTitle  link",
-            "match": {
-              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librariansClickOnUserTitleLink()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10129000000,
+              "duration": 1364000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "show records default value should be 10",
+            "name": "the user should see following names",
             "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 37
-                }
-              ],
-              "location": "com.Library.step_definition.Task5_ShowRecord_step_definition.show_records_default_value_should_be(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 201000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "show records count options",
-            "match": {
-              "location": "com.Library.step_definition.Task5_ShowRecord_step_definition.showRecordsOptions(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library.step_definition.StudentTable_stpe_definition.the_user_should_see_following_names(java.util.List\u003cjava.lang.String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "5"
+                  "Action and Adventure"
                 ]
               },
               {
                 "cells": [
-                  "10"
+                  "ISBN"
                 ]
               },
               {
                 "cells": [
-                  "15"
+                  "Name"
                 ]
               },
               {
                 "cells": [
-                  "50"
+                  "Author"
                 ]
               },
               {
                 "cells": [
-                  "100"
+                  "Category"
                 ]
               },
               {
                 "cells": [
-                  "200"
+                  "Year"
                 ]
               },
               {
                 "cells": [
-                  "500"
+                  "Borrowed By"
                 ]
               }
             ],
@@ -132,11 +123,11 @@
         ]
       }
     ],
-    "name": "Show record functionality",
+    "name": "students should be able to see tables with default info",
     "description": "",
-    "id": "show-record-functionality",
+    "id": "students-should-be-able-to-see-tables-with-default-info",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/ShowRecord.feature",
+    "uri": "file:src/test/resources/feature/StudentTable.feature",
     "tags": [
       {
         "name": "@wip",
