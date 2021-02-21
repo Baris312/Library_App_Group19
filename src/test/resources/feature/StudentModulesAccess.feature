@@ -1,4 +1,4 @@
-@wip
+
 
 Feature: Student should be able to access modules
 

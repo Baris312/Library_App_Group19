@@ -1,328 +1,34 @@
 [
   {
-    "line": 3,
+    "line": 5,
     "elements": [
       {
-        "line": 5,
-        "name": "User is already in login page",
+        "start_timestamp": "2021-02-21T04:51:49.942Z",
+        "line": 8,
+        "name": "As a librarian, I should be able to add users from users page",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2607000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-20T23:26:14.353Z",
-        "line": 18,
-        "name": "As a user, I should be able to  see several modules once I login.",
-        "description": "",
-        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 99000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 233000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student102@library\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"Aaf6GwsY\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2202000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the user should see following modules",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Books"
-                ]
-              },
-              {
-                "cells": [
-                  "Borrowing Books"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "User is already in login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1954000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-20T23:26:19.525Z",
-        "line": 19,
-        "name": "As a user, I should be able to  see several modules once I login.",
-        "description": "",
-        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 101000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 201000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enter \"student103@library\" and \"7zWoKREA\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student103@library\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"7zWoKREA\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2177000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the user should see following modules",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Books"
-                ]
-              },
-              {
-                "cells": [
-                  "Borrowing Books"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "User is already in login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1730000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-20T23:26:23.966Z",
-        "line": 20,
-        "name": "As a user, I should be able to  see several modules once I login.",
-        "description": "",
-        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 102000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 193000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enter \"student104@library\" and \"73ndoZd0\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student104@library\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"73ndoZd0\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2205000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the user should see following modules",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Books"
-                ]
-              },
-              {
-                "cells": [
-                  "Borrowing Books"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "User is already in login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1875000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-20T23:26:28.202Z",
-        "line": 23,
-        "name": "Librarians  should have access to 3 modules",
-        "description": "",
-        "id": "student-should-be-able-to-access-modules;librarians--should-have-access-to-3-modules",
+        "id": "user-should-be-able-to-add-users-from-users-page;as-a-librarian--i-should-be-able-to-add-users-from-users-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 210000000,
+              "duration": 3696000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 9,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 10,
             "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
             "match": {
               "arguments": [
@@ -341,31 +47,86 @@
           },
           {
             "result": {
-              "duration": 2208000000,
+              "duration": 2095000000,
               "status": "passed"
             },
-            "line": 25,
-            "name": "the user should see following modules",
+            "line": 11,
+            "name": "Librarians click on UserTitle  link",
             "match": {
-              "location": "com.Library.step_definition.Task2_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library.step_definition.Task3_AddUser_step_definitions.librariansClickOnUserTitleLink()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Dashboard"
-                ]
-              },
-              {
-                "cells": [
-                  "Users"
-                ]
-              },
-              {
-                "cells": [
-                  "Books"
-                ]
-              }
-            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2085000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Librarians click on Add User link",
+            "match": {
+              "location": "com.Library.step_definition.Task3_AddUser_step_definitions.librarians_click_on_add_user_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2699000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Librarians add users with all valid info",
+            "match": {
+              "location": "com.Library.step_definition.Task3_AddUser_step_definitions.librarians_add_users_with_all_valid_info()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3080000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Librarians click on close button",
+            "match": {
+              "location": "com.Library.step_definition.Task3_AddUser_step_definitions.librarians_click_on_close_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3088000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Librarians click on Edit User button",
+            "match": {
+              "location": "com.Library.step_definition.Task3_AddUser_step_definitions.librarians_click_on_edit_user_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2099000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Librarians click on Save changes",
+            "match": {
+              "location": "com.Library.step_definition.Task3_AddUser_step_definitions.librarians_click_on_save_changes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Librarians sees the user updated  alert",
+            "match": {
+              "location": "com.Library.step_definition.Task3_AddUser_step_definitions.librarians_sees_the_user_updated_alert()"
+            },
             "keyword": "Then "
           }
         ],
@@ -376,17 +137,17 @@
         ]
       }
     ],
-    "name": "Student should be able to access modules",
+    "name": "User should be able to add users from users page",
     "description": "",
-    "id": "student-should-be-able-to-access-modules",
+    "id": "user-should-be-able-to-add-users-from-users-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/StudentModulesAccess.feature",
+    "uri": "file:src/test/resources/feature/Adduser.feature",
     "tags": [
       {
         "name": "@wip",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 3,
           "column": 1
         }
       }

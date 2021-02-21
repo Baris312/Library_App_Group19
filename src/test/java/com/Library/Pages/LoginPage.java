@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage
+public class LoginPage extends Librarian_User_page
     {
 
 
@@ -33,7 +33,7 @@ public class LoginPage
         @FindBy(id = "inputPassword")
         public WebElement userPassword;
 
-        @FindBy(id = "//*[@id='menu_item']/li[2]/a/span[1]")
+        @FindBy(xpath = "//*[@id='menu_item']/li[2]/a/span[1]")
         public WebElement UserLink;
 
 
