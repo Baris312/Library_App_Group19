@@ -23,7 +23,7 @@ public class StudentTable_stpe_definition
             select = new Select(student.bookCategories);
             List<String> listElements = BrowserUtil.getElementsText(select.getOptions());
             List<String> assertList = new ArrayList<>();
-
+            System.out.println(listElements);
 
             for (String eachlink : categories)
                 {

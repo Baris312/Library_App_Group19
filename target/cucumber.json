@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 5,
+        "line": 6,
         "name": "User is already in login page",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4079000000,
+              "duration": 3742000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user is on the login page",
             "match": {
               "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
@@ -24,29 +24,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-21T14:56:30.780Z",
-        "line": 23,
-        "name": "student should be able to see tables with default info",
+        "start_timestamp": "2021-02-21T15:52:48.430Z",
+        "line": 38,
+        "name": "As a student I should be able to search books with different categories",
         "description": "",
-        "id": "students-should-be-able-to-see-tables-with-default-info;student-should-be-able-to-see-tables-with-default-info;user-login-info;2",
+        "id": "as-a-student-i-should-be-able-to-search-books;as-a-student-i-should-be-able-to-search-books-with-different-categories;user-login-info;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 131000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1254000000,
+              "duration": 1274000000,
               "status": "passed"
             },
             "line": 10,
@@ -68,15 +56,32 @@
           },
           {
             "result": {
-              "duration": 1364000000,
+              "duration": 999000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "the user should see following names",
+            "name": "student click on Book Categories",
             "match": {
-              "location": "com.Library.step_definition.StudentTable_stpe_definition.the_user_should_see_following_names(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.Library.step_definition.Task7_bookcategories_step_definition.student_click_on_book_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1304000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user sees All options",
+            "match": {
+              "location": "com.Library.step_definition.Task7_bookcategories_step_definition.user_sees_all_options(java.util.List\u003cjava.lang.String\u003e)"
             },
             "rows": [
+              {
+                "cells": [
+                  "ALL"
+                ]
+              },
               {
                 "cells": [
                   "Action and Adventure"
@@ -84,32 +89,97 @@
               },
               {
                 "cells": [
-                  "ISBN"
+                  "Anthology"
                 ]
               },
               {
                 "cells": [
-                  "Name"
+                  "Classic"
                 ]
               },
               {
                 "cells": [
-                  "Author"
+                  "Comic and Graphic Novel"
                 ]
               },
               {
                 "cells": [
-                  "Category"
+                  "Crime and Detective"
                 ]
               },
               {
                 "cells": [
-                  "Year"
+                  "Drama"
                 ]
               },
               {
                 "cells": [
-                  "Borrowed By"
+                  "Fable"
+                ]
+              },
+              {
+                "cells": [
+                  "Fairy Tale"
+                ]
+              },
+              {
+                "cells": [
+                  "Fan-Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Fantasy"
+                ]
+              },
+              {
+                "cells": [
+                  "Historical Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Horror"
+                ]
+              },
+              {
+                "cells": [
+                  "Science Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Biography/Autobiography"
+                ]
+              },
+              {
+                "cells": [
+                  "Humor"
+                ]
+              },
+              {
+                "cells": [
+                  "Romance"
+                ]
+              },
+              {
+                "cells": [
+                  "Short Story"
+                ]
+              },
+              {
+                "cells": [
+                  "Essay"
+                ]
+              },
+              {
+                "cells": [
+                  "Memoir"
+                ]
+              },
+              {
+                "cells": [
+                  "Poetry"
                 ]
               }
             ],
@@ -123,17 +193,17 @@
         ]
       }
     ],
-    "name": "students should be able to see tables with default info",
+    "name": "As a student I should be able to search books",
     "description": "",
-    "id": "students-should-be-able-to-see-tables-with-default-info",
+    "id": "as-a-student-i-should-be-able-to-search-books",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/StudentTable.feature",
+    "uri": "file:src/test/resources/feature/Bookcategories.feature",
     "tags": [
       {
         "name": "@wip",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 2,
           "column": 1
         }
       }

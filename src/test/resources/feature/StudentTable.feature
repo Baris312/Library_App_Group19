@@ -1,4 +1,4 @@
-@wip
+
 Feature: students should be able to see tables with default info
 
 
