@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public abstract class Librarian_User_page
+public  class Librarian_User_page extends ShowRecordPage
     {
 
         public Librarian_User_page()

@@ -15,7 +15,7 @@ import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task2_moduleAccses_step_definition
+public class Task3_moduleAccses_step_definition
     {
 
         LoginPage lib = new LoginPage();
