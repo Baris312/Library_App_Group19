@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public  class Librarian_User_page extends ShowRecordPage
     {
 
@@ -45,6 +47,8 @@ public  class Librarian_User_page extends ShowRecordPage
         @FindBy (id = "user_groups")
         public WebElement userGroupLink;
 
+        @FindBy(xpath = "//th")
+        public List<WebElement> headerSelection;
 
 
     }

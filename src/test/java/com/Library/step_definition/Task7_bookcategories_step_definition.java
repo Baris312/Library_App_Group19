@@ -2,6 +2,7 @@ package com.Library.step_definition;
 
 import com.Library.Pages.LoginPage;
 import com.Library.utilities.BrowserUtil;
+import com.Library.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -36,6 +37,7 @@ public class Task7_bookcategories_step_definition
 
                 Assert.assertEquals( "list are not equal", categories,listElements);
 
+                Driver.closeDriver();
         }
 
     }

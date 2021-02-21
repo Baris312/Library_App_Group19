@@ -1,7 +1,10 @@
 
 
-@wip
+
 Feature: Verification of user categories
+
+  Background: User is already in login page
+    Given user is on the login page
 
 
 

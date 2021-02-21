@@ -1,19 +1,17 @@
 [
   {
-    "line": 4,
+    "line": 5,
     "elements": [
       {
-        "start_timestamp": "2021-02-21T17:13:20.569Z",
         "line": 8,
-        "name": "As a librarian, I should be able to add users from users page",
+        "name": "User is already in login page",
         "description": "",
-        "id": "verification-of-user-categories;as-a-librarian--i-should-be-able-to-add-users-from-users-page",
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 3099000000,
+              "duration": 5880000000,
               "status": "passed"
             },
             "line": 9,
@@ -22,13 +20,36 @@
               "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
             },
             "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:23:29.488Z",
+        "line": 11,
+        "name": "As a librarian, I should be able to add users from users page",
+        "description": "",
+        "id": "user-should-be-able-to-add-users-from-users-page;as-a-librarian--i-should-be-able-to-add-users-from-users-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 297000000,
+              "duration": 274000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 13,
             "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
             "match": {
               "arguments": [
@@ -47,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 2096000000,
+              "duration": 2101000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 14,
             "name": "Librarians click on UserTitle  link",
             "match": {
               "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librariansClickOnUserTitleLink()"
@@ -59,10 +80,488 @@
           },
           {
             "result": {
-              "duration": 1106000000,
+              "duration": 2084000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Librarians click on Add User link",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librarians_click_on_add_user_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2724000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Librarians add users with all valid info",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librarians_add_users_with_all_valid_info()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3075000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Librarians click on close button",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librarians_click_on_close_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3088000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Librarians click on Edit User button",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librarians_click_on_edit_user_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2098000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Librarians click on Save changes",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librarians_click_on_save_changes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Librarians sees the user updated  alert",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librarians_sees_the_user_updated_alert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to add users from users page",
+    "description": "",
+    "id": "user-should-be-able-to-add-users-from-users-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Adduser.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2126000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:23:51.374Z",
+        "line": 38,
+        "name": "As a student I should be able to search books with different categories",
+        "description": "",
+        "id": "as-a-student-i-should-be-able-to-search-books;as-a-student-i-should-be-able-to-search-books-with-different-categories;user-login-info;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1250000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student102@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Aaf6GwsY\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1051000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "student click on Book Categories",
+            "match": {
+              "location": "com.Library.step_definition.Task7_bookcategories_step_definition.student_click_on_book_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1407000000,
               "status": "passed"
             },
             "line": 12,
+            "name": "user sees All options",
+            "match": {
+              "location": "com.Library.step_definition.Task7_bookcategories_step_definition.user_sees_all_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ALL"
+                ]
+              },
+              {
+                "cells": [
+                  "Action and Adventure"
+                ]
+              },
+              {
+                "cells": [
+                  "Anthology"
+                ]
+              },
+              {
+                "cells": [
+                  "Classic"
+                ]
+              },
+              {
+                "cells": [
+                  "Comic and Graphic Novel"
+                ]
+              },
+              {
+                "cells": [
+                  "Crime and Detective"
+                ]
+              },
+              {
+                "cells": [
+                  "Drama"
+                ]
+              },
+              {
+                "cells": [
+                  "Fable"
+                ]
+              },
+              {
+                "cells": [
+                  "Fairy Tale"
+                ]
+              },
+              {
+                "cells": [
+                  "Fan-Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Fantasy"
+                ]
+              },
+              {
+                "cells": [
+                  "Historical Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Horror"
+                ]
+              },
+              {
+                "cells": [
+                  "Science Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Biography/Autobiography"
+                ]
+              },
+              {
+                "cells": [
+                  "Humor"
+                ]
+              },
+              {
+                "cells": [
+                  "Romance"
+                ]
+              },
+              {
+                "cells": [
+                  "Short Story"
+                ]
+              },
+              {
+                "cells": [
+                  "Essay"
+                ]
+              },
+              {
+                "cells": [
+                  "Memoir"
+                ]
+              },
+              {
+                "cells": [
+                  "Poetry"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a student I should be able to search books",
+    "description": "",
+    "id": "as-a-student-i-should-be-able-to-search-books",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Bookcategories.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1862000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:23:57.228Z",
+        "line": 24,
+        "name": "borrowing books table columns names",
+        "description": "",
+        "id": "as-a-user--i-should-able-to-see-my-borrowing-books.;borrowing-books-table-columns-names;user-login-info;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1232000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student102@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Aaf6GwsY\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1039000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user click Borrowing Books module",
+            "match": {
+              "location": "com.Library.step_definition.Task8_BorrowingBook_step_definitions.the_user_click_borrowing_books_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1372000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user shoulde see the following column names:",
+            "match": {
+              "location": "com.Library.step_definition.Task8_BorrowingBook_step_definitions.the_user_shoulde_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Action"
+                ]
+              },
+              {
+                "cells": [
+                  "Book Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Planned Return Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Return Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Is Returned ?"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should able to see my borrowing books.",
+    "description": "",
+    "id": "as-a-user--i-should-able-to-see-my-borrowing-books.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/BorrwingBook.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1804000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:02.749Z",
+        "line": 11,
+        "name": "As a librarian, I should be able to add users from users page",
+        "description": "",
+        "id": "verification-of-user-categories;as-a-librarian--i-should-be-able-to-add-users-from-users-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clibrarianEmail\u003e\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.librarianEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2083000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Librarians click on UserTitle  link",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librariansClickOnUserTitleLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1110000000,
+              "status": "passed"
+            },
+            "line": 15,
             "name": "Librarians click on User Group dropdown",
             "match": {
               "location": "com.Library.step_definition.Task9_UserVerification_step_definition.librarians_click_on_user_group_dropdown()"
@@ -71,10 +570,10 @@
           },
           {
             "result": {
-              "duration": 2122000000,
+              "duration": 2252000000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 16,
             "name": "user should see the following options:",
             "match": {
               "location": "com.Library.step_definition.Task9_UserVerification_step_definition.user_should_see_the_following_options(java.util.List\u003cjava.lang.String\u003e)"
@@ -98,11 +597,6 @@
             ],
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
         ]
       }
     ],
@@ -111,15 +605,1431 @@
     "id": "verification-of-user-categories",
     "keyword": "Feature",
     "uri": "file:src/test/resources/feature/LibrarianUserVerification.feature",
-    "tags": [
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
       {
-        "name": "@wip",
-        "type": "Tag",
-        "location": {
-          "line": 3,
-          "column": 1
-        }
+        "line": 4,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1883000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:10.326Z",
+        "line": 15,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"student102@library\" and  \"Aaf6GwsY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student102@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Aaf6GwsY\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1472000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1964000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:16.896Z",
+        "line": 16,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1246000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"student103@library\" and  \"7zWoKREA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student103@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"7zWoKREA\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1473000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2211000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:21.963Z",
+        "line": 17,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1240000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"student104@library\" and  \"73ndoZd0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student104@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"73ndoZd0\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1556000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2009000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:26.902Z",
+        "line": 18,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1249000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"librarian14@library\" and  \"87x8afWY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian14@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"87x8afWY\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1445000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2938000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
       }
-    ]
+    ],
+    "name": "As a user ,I should be see home page",
+    "description": "",
+    "id": "as-a-user--i-should-be-see-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/LogOut.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-23T06:24:32.676Z",
+        "line": 13,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 262000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1246000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"student102@library\" and  \"Aaf6GwsY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student102@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Aaf6GwsY\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2049000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user see  \"student\" and \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Books\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.user_see_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1548000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:37.788Z",
+        "line": 14,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2236000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1271000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"student103@library\" and  \"7zWoKREA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student103@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"7zWoKREA\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2044000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user see  \"student\" and \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Books\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.user_see_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1454000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:44.800Z",
+        "line": 15,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2173000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1254000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"student104@library\" and  \"73ndoZd0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student104@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"73ndoZd0\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2045000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user see  \"student\" and \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Books\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.user_see_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1480000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:51.758Z",
+        "line": 16,
+        "name": "user login verification",
+        "description": "",
+        "id": "as-a-user--i-should-be-see-home-page;user-login-verification;user-login-and-page-on-library;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2030000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on login page",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1249000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"librarian14@library\" and  \"87x8afWY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian14@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"87x8afWY\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2044000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user see  \"librarian\" and \"Dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.Library.step_definition.login_step_definition.user_see_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1499000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Logout from homePage",
+            "match": {
+              "location": "com.Library.step_definition.login_step_definition.user_logout_from_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "As a user ,I should be see home page",
+    "description": "",
+    "id": "as-a-user--i-should-be-see-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2081000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:24:58.600Z",
+        "line": 7,
+        "name": "verify default record count",
+        "description": "",
+        "id": "show-record-functionality;verify-default-record-count",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 240000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clibrarianEmail\u003e\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.librarianEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2088000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Librarians click on UserTitle  link",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librariansClickOnUserTitleLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10111000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "show records default value should be 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 37
+                }
+              ],
+              "location": "com.Library.step_definition.Task5_ShowRecord_step_definition.show_records_default_value_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "show records count options",
+            "match": {
+              "location": "com.Library.step_definition.Task5_ShowRecord_step_definition.showRecordsOptions(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "15"
+                ]
+              },
+              {
+                "cells": [
+                  "50"
+                ]
+              },
+              {
+                "cells": [
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "200"
+                ]
+              },
+              {
+                "cells": [
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Show record functionality",
+    "description": "",
+    "id": "show-record-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/ShowRecord.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1915000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:25:13.401Z",
+        "line": 18,
+        "name": "As a user, I should be able to  see several modules once I login.",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1234000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student102@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Aaf6GwsY\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2395000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see following modules",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1750000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:25:19.193Z",
+        "line": 19,
+        "name": "As a user, I should be able to  see several modules once I login.",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1226000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"student103@library\" and \"7zWoKREA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student103@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"7zWoKREA\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2178000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see following modules",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1841000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:25:24.446Z",
+        "line": 20,
+        "name": "As a user, I should be able to  see several modules once I login.",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1221000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"student104@library\" and \"73ndoZd0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student104@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"73ndoZd0\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2204000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see following modules",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1966000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:25:29.820Z",
+        "line": 23,
+        "name": "Librarians  should have access to 3 modules",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;librarians--should-have-access-to-3-modules",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 218000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clibrarianEmail\u003e\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.librarianEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2193000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user should see following modules",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Dashboard"
+                ]
+              },
+              {
+                "cells": [
+                  "Users"
+                ]
+              },
+              {
+                "cells": [
+                  "Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Student should be able to access modules",
+    "description": "",
+    "id": "student-should-be-able-to-access-modules",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/StudentModulesAccess.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:25:34.210Z",
+        "line": 23,
+        "name": "student should be able to see tables with default info",
+        "description": "",
+        "id": "students-should-be-able-to-see-tables-with-default-info;student-should-be-able-to-see-tables-with-default-info;user-login-info;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1227000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"student102@library\" and \"Aaf6GwsY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student102@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Aaf6GwsY\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1385000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see following names",
+            "match": {
+              "location": "com.Library.step_definition.StudentTable_stpe_definition.the_user_should_see_following_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Action and Adventure"
+                ]
+              },
+              {
+                "cells": [
+                  "ISBN"
+                ]
+              },
+              {
+                "cells": [
+                  "Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Author"
+                ]
+              },
+              {
+                "cells": [
+                  "Category"
+                ]
+              },
+              {
+                "cells": [
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowed By"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "students should be able to see tables with default info",
+    "description": "",
+    "id": "students-should-be-able-to-see-tables-with-default-info",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/StudentTable.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2700000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T06:25:39.059Z",
+        "line": 11,
+        "name": "user management table columns names",
+        "description": "",
+        "id": "user-management-table-feature;user-management-table-columns-names",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Librarian enter \"\u003clibrarianEmail\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003clibrarianEmail\u003e\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.librarianEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2087000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Librarians click on UserTitle  link",
+            "match": {
+              "location": "com.Library.step_definition.Task4_AddUser_step_definitions.librariansClickOnUserTitleLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should  see the following column names:",
+            "match": {
+              "location": "com.Library.step_definition.Task10_UserManagementTable_step_definition.the_user_should_see_the_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Actions"
+                ]
+              },
+              {
+                "cells": [
+                  "User ID"
+                ]
+              },
+              {
+                "cells": [
+                  "Full Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Email"
+                ]
+              },
+              {
+                "cells": [
+                  "Group"
+                ]
+              },
+              {
+                "cells": [
+                  "Status"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user management table feature",
+    "description": "",
+    "id": "user-management-table-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/UserManagerTable.feature",
+    "tags": []
   }
 ]

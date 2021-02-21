@@ -2,6 +2,7 @@ package com.Library.step_definition;
 
 import com.Library.Pages.LoginPage;
 import com.Library.utilities.BrowserUtil;
+import com.Library.utilities.Driver;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
@@ -30,7 +31,7 @@ public class Task9_UserVerification_step_definition
 
             BrowserUtil.wait(2);
             Assert.assertEquals("List are not equal",options,userOptions);
-
+            Driver.closeDriver();
 
         }
 

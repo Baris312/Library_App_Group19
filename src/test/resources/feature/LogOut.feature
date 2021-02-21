@@ -1,9 +1,10 @@
 
 Feature: As a user ,I should be see home page
 
+  Background: User is already in login page
+    Given user is on the login page
 
   Scenario Outline: user login verification
-    Given user on login page
     When user enter "<userEmail>" and  "<Password>"
     Then user Logout from homePage
     Then user on login page

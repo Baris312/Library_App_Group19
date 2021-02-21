@@ -2,6 +2,7 @@ package com.Library.step_definition;
 
 import com.Library.Pages.LoginPage;
 import com.Library.utilities.BrowserUtil;
+import com.Library.utilities.Driver;
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.Then;
 
@@ -65,7 +66,7 @@ public class Task4_AddUser_step_definitions
         public void librarians_sees_the_user_updated_alert()
         {
            BrowserUtil.waitForVisibility(ad.updatedAlert,3);
-
+            Driver.closeDriver();
         }
 
 
