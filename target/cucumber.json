@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5880000000,
+              "duration": 10594000000,
               "status": "passed"
             },
             "line": 9,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:23:29.488Z",
+        "start_timestamp": "2021-02-24T18:12:41.947Z",
         "line": 11,
         "name": "As a librarian, I should be able to add users from users page",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 145000000,
+              "duration": 107000000,
               "status": "passed"
             },
             "line": 12,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 274000000,
+              "duration": 356000000,
               "status": "passed"
             },
             "line": 13,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 2101000000,
+              "duration": 2095000000,
               "status": "passed"
             },
             "line": 14,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 2084000000,
+              "duration": 2411000000,
               "status": "passed"
             },
             "line": 15,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 2724000000,
+              "duration": 2921000000,
               "status": "passed"
             },
             "line": 16,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 3075000000,
+              "duration": 3080000000,
               "status": "passed"
             },
             "line": 17,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 3088000000,
+              "duration": 3133000000,
               "status": "passed"
             },
             "line": 18,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 2098000000,
+              "duration": 2125000000,
               "status": "passed"
             },
             "line": 19,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 305000000,
+              "duration": 270000000,
               "status": "passed"
             },
             "line": 20,
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2126000000,
+              "duration": 17311000000,
               "status": "passed"
             },
             "line": 7,
@@ -185,7 +185,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:23:51.374Z",
+        "start_timestamp": "2021-02-24T18:12:41.943Z",
         "line": 38,
         "name": "As a student I should be able to search books with different categories",
         "description": "",
@@ -195,7 +195,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1250000000,
+              "duration": 1386000000,
               "status": "passed"
             },
             "line": 10,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 1051000000,
+              "duration": 1875000000,
               "status": "passed"
             },
             "line": 11,
@@ -229,7 +229,7 @@
           },
           {
             "result": {
-              "duration": 1407000000,
+              "duration": 1614000000,
               "status": "passed"
             },
             "line": 12,
@@ -368,7 +368,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1862000000,
+              "duration": 8544000000,
               "status": "passed"
             },
             "line": 4,
@@ -381,7 +381,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:23:57.228Z",
+        "start_timestamp": "2021-02-24T18:12:41.945Z",
         "line": 24,
         "name": "borrowing books table columns names",
         "description": "",
@@ -391,7 +391,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1232000000,
+              "duration": 1394000000,
               "status": "passed"
             },
             "line": 10,
@@ -413,7 +413,7 @@
           },
           {
             "result": {
-              "duration": 1039000000,
+              "duration": 2188000000,
               "status": "passed"
             },
             "line": 11,
@@ -425,7 +425,7 @@
           },
           {
             "result": {
-              "duration": 1372000000,
+              "duration": 1434000000,
               "status": "passed"
             },
             "line": 12,
@@ -489,7 +489,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1804000000,
+              "duration": 2287000000,
               "status": "passed"
             },
             "line": 7,
@@ -502,7 +502,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:02.749Z",
+        "start_timestamp": "2021-02-24T18:12:55.576Z",
         "line": 11,
         "name": "As a librarian, I should be able to add users from users page",
         "description": "",
@@ -512,7 +512,7 @@
         "steps": [
           {
             "result": {
-              "duration": 114000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 12,
@@ -524,7 +524,7 @@
           },
           {
             "result": {
-              "duration": 199000000,
+              "duration": 344000000,
               "status": "passed"
             },
             "line": 13,
@@ -546,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 2083000000,
+              "duration": 2101000000,
               "status": "passed"
             },
             "line": 14,
@@ -558,7 +558,7 @@
           },
           {
             "result": {
-              "duration": 1110000000,
+              "duration": 1166000000,
               "status": "passed"
             },
             "line": 15,
@@ -570,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 2252000000,
+              "duration": 2242000000,
               "status": "passed"
             },
             "line": 16,
@@ -619,7 +619,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1883000000,
+              "duration": 4431000000,
               "status": "passed"
             },
             "line": 5,
@@ -632,7 +632,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:10.326Z",
+        "start_timestamp": "2021-02-24T18:13:03.959Z",
         "line": 15,
         "name": "user login verification",
         "description": "",
@@ -642,7 +642,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1243000000,
+              "duration": 1525000000,
               "status": "passed"
             },
             "line": 8,
@@ -664,7 +664,7 @@
           },
           {
             "result": {
-              "duration": 1472000000,
+              "duration": 2934000000,
               "status": "passed"
             },
             "line": 9,
@@ -676,7 +676,7 @@
           },
           {
             "result": {
-              "duration": 1964000000,
+              "duration": 5262000000,
               "status": "passed"
             },
             "line": 10,
@@ -697,7 +697,7 @@
         "steps": [
           {
             "result": {
-              "duration": 132000000,
+              "duration": 172000000,
               "status": "passed"
             },
             "line": 5,
@@ -710,7 +710,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:16.896Z",
+        "start_timestamp": "2021-02-24T18:13:18.118Z",
         "line": 16,
         "name": "user login verification",
         "description": "",
@@ -720,7 +720,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1246000000,
+              "duration": 1562000000,
               "status": "passed"
             },
             "line": 8,
@@ -742,7 +742,7 @@
           },
           {
             "result": {
-              "duration": 1473000000,
+              "duration": 2448000000,
               "status": "passed"
             },
             "line": 9,
@@ -754,7 +754,7 @@
           },
           {
             "result": {
-              "duration": 2211000000,
+              "duration": 2580000000,
               "status": "passed"
             },
             "line": 10,
@@ -775,7 +775,7 @@
         "steps": [
           {
             "result": {
-              "duration": 127000000,
+              "duration": 1670000000,
               "status": "passed"
             },
             "line": 5,
@@ -788,7 +788,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:21.963Z",
+        "start_timestamp": "2021-02-24T18:13:24.887Z",
         "line": 17,
         "name": "user login verification",
         "description": "",
@@ -798,7 +798,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1240000000,
+              "duration": 1443000000,
               "status": "passed"
             },
             "line": 8,
@@ -820,7 +820,7 @@
           },
           {
             "result": {
-              "duration": 1556000000,
+              "duration": 3998000000,
               "status": "passed"
             },
             "line": 9,
@@ -832,7 +832,7 @@
           },
           {
             "result": {
-              "duration": 2009000000,
+              "duration": 4107000000,
               "status": "passed"
             },
             "line": 10,
@@ -853,7 +853,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122000000,
+              "duration": 259000000,
               "status": "passed"
             },
             "line": 5,
@@ -866,7 +866,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:26.902Z",
+        "start_timestamp": "2021-02-24T18:13:36.113Z",
         "line": 18,
         "name": "user login verification",
         "description": "",
@@ -876,7 +876,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1249000000,
+              "duration": 1471000000,
               "status": "passed"
             },
             "line": 8,
@@ -898,7 +898,7 @@
           },
           {
             "result": {
-              "duration": 1445000000,
+              "duration": 2599000000,
               "status": "passed"
             },
             "line": 9,
@@ -910,7 +910,7 @@
           },
           {
             "result": {
-              "duration": 2938000000,
+              "duration": 5377000000,
               "status": "passed"
             },
             "line": 10,
@@ -934,7 +934,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-23T06:24:32.676Z",
+        "start_timestamp": "2021-02-24T18:13:04.149Z",
         "line": 13,
         "name": "user login verification",
         "description": "",
@@ -944,7 +944,7 @@
         "steps": [
           {
             "result": {
-              "duration": 262000000,
+              "duration": 4995000000,
               "status": "passed"
             },
             "line": 5,
@@ -956,7 +956,7 @@
           },
           {
             "result": {
-              "duration": 1246000000,
+              "duration": 1435000000,
               "status": "passed"
             },
             "line": 6,
@@ -978,7 +978,7 @@
           },
           {
             "result": {
-              "duration": 2049000000,
+              "duration": 2126000000,
               "status": "passed"
             },
             "line": 7,
@@ -1000,7 +1000,7 @@
           },
           {
             "result": {
-              "duration": 1548000000,
+              "duration": 3227000000,
               "status": "passed"
             },
             "line": 8,
@@ -1018,7 +1018,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:37.788Z",
+        "start_timestamp": "2021-02-24T18:13:15.941Z",
         "line": 14,
         "name": "user login verification",
         "description": "",
@@ -1028,7 +1028,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2236000000,
+              "duration": 2944000000,
               "status": "passed"
             },
             "line": 5,
@@ -1040,7 +1040,7 @@
           },
           {
             "result": {
-              "duration": 1271000000,
+              "duration": 1309000000,
               "status": "passed"
             },
             "line": 6,
@@ -1062,7 +1062,7 @@
           },
           {
             "result": {
-              "duration": 2044000000,
+              "duration": 2073000000,
               "status": "passed"
             },
             "line": 7,
@@ -1084,7 +1084,7 @@
           },
           {
             "result": {
-              "duration": 1454000000,
+              "duration": 2563000000,
               "status": "passed"
             },
             "line": 8,
@@ -1102,7 +1102,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:44.800Z",
+        "start_timestamp": "2021-02-24T18:13:24.838Z",
         "line": 15,
         "name": "user login verification",
         "description": "",
@@ -1112,7 +1112,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2173000000,
+              "duration": 2295000000,
               "status": "passed"
             },
             "line": 5,
@@ -1124,7 +1124,7 @@
           },
           {
             "result": {
-              "duration": 1254000000,
+              "duration": 1465000000,
               "status": "passed"
             },
             "line": 6,
@@ -1146,7 +1146,7 @@
           },
           {
             "result": {
-              "duration": 2045000000,
+              "duration": 2216000000,
               "status": "passed"
             },
             "line": 7,
@@ -1168,7 +1168,7 @@
           },
           {
             "result": {
-              "duration": 1480000000,
+              "duration": 1833000000,
               "status": "passed"
             },
             "line": 8,
@@ -1186,7 +1186,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:51.758Z",
+        "start_timestamp": "2021-02-24T18:13:32.656Z",
         "line": 16,
         "name": "user login verification",
         "description": "",
@@ -1196,7 +1196,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2030000000,
+              "duration": 4199000000,
               "status": "passed"
             },
             "line": 5,
@@ -1208,7 +1208,7 @@
           },
           {
             "result": {
-              "duration": 1249000000,
+              "duration": 1330000000,
               "status": "passed"
             },
             "line": 6,
@@ -1230,7 +1230,7 @@
           },
           {
             "result": {
-              "duration": 2044000000,
+              "duration": 2090000000,
               "status": "passed"
             },
             "line": 7,
@@ -1252,7 +1252,7 @@
           },
           {
             "result": {
-              "duration": 1499000000,
+              "duration": 2745000000,
               "status": "passed"
             },
             "line": 8,
@@ -1289,7 +1289,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2081000000,
+              "duration": 4806000000,
               "status": "passed"
             },
             "line": 5,
@@ -1302,7 +1302,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:24:58.600Z",
+        "start_timestamp": "2021-02-24T18:13:09.061Z",
         "line": 7,
         "name": "verify default record count",
         "description": "",
@@ -1312,7 +1312,7 @@
         "steps": [
           {
             "result": {
-              "duration": 240000000,
+              "duration": 412000000,
               "status": "passed"
             },
             "line": 8,
@@ -1334,7 +1334,7 @@
           },
           {
             "result": {
-              "duration": 2088000000,
+              "duration": 2833000000,
               "status": "passed"
             },
             "line": 9,
@@ -1346,7 +1346,7 @@
           },
           {
             "result": {
-              "duration": 10111000000,
+              "duration": 10977000000,
               "status": "passed"
             },
             "line": 10,
@@ -1364,7 +1364,7 @@
           },
           {
             "result": {
-              "duration": 268000000,
+              "duration": 247000000,
               "status": "passed"
             },
             "line": 11,
@@ -1433,7 +1433,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1915000000,
+              "duration": 3659000000,
               "status": "passed"
             },
             "line": 6,
@@ -1446,7 +1446,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:25:13.401Z",
+        "start_timestamp": "2021-02-24T18:13:28.406Z",
         "line": 18,
         "name": "As a user, I should be able to  see several modules once I login.",
         "description": "",
@@ -1456,7 +1456,7 @@
         "steps": [
           {
             "result": {
-              "duration": 244000000,
+              "duration": 4211000000,
               "status": "passed"
             },
             "line": 10,
@@ -1468,7 +1468,7 @@
           },
           {
             "result": {
-              "duration": 1234000000,
+              "duration": 1480000000,
               "status": "passed"
             },
             "line": 11,
@@ -1481,186 +1481,6 @@
                 },
                 {
                   "val": "\"Aaf6GwsY\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2395000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the user should see following modules",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Books"
-                ]
-              },
-              {
-                "cells": [
-                  "Borrowing Books"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "User is already in login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1750000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-23T06:25:19.193Z",
-        "line": 19,
-        "name": "As a user, I should be able to  see several modules once I login.",
-        "description": "",
-        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 94000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1226000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enter \"student103@library\" and \"7zWoKREA\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student103@library\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"7zWoKREA\"",
-                  "offset": 36
-                }
-              ],
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2178000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the user should see following modules",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Books"
-                ]
-              },
-              {
-                "cells": [
-                  "Borrowing Books"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "User is already in login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1841000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-23T06:25:24.446Z",
-        "line": 20,
-        "name": "As a user, I should be able to  see several modules once I login.",
-        "description": "",
-        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 101000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1221000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enter \"student104@library\" and \"73ndoZd0\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student104@library\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"73ndoZd0\"",
                   "offset": 36
                 }
               ],
@@ -1703,7 +1523,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1966000000,
+              "duration": 6579000000,
               "status": "passed"
             },
             "line": 6,
@@ -1716,7 +1536,187 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:25:29.820Z",
+        "start_timestamp": "2021-02-24T18:13:39.972Z",
+        "line": 19,
+        "name": "As a user, I should be able to  see several modules once I login.",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1642000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"student103@library\" and \"7zWoKREA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student103@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"7zWoKREA\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2189000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see following modules",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2961000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T18:13:50.565Z",
+        "line": 20,
+        "name": "As a user, I should be able to  see several modules once I login.",
+        "description": "",
+        "id": "student-should-be-able-to-access-modules;as-a-user--i-should-be-able-to--see-several-modules-once-i-login.;user-login-info;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1288000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"student104@library\" and \"73ndoZd0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student104@library\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"73ndoZd0\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2164000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see following modules",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.the_user_should_see_following_modules(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Books"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrowing Books"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is already in login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2103000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.Library.step_definition.Task3_moduleAccses_step_definition.userIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T18:13:57.118Z",
         "line": 23,
         "name": "Librarians  should have access to 3 modules",
         "description": "",
@@ -1726,7 +1726,7 @@
         "steps": [
           {
             "result": {
-              "duration": 218000000,
+              "duration": 235000000,
               "status": "passed"
             },
             "line": 24,
@@ -1748,7 +1748,7 @@
           },
           {
             "result": {
-              "duration": 2193000000,
+              "duration": 2151000000,
               "status": "passed"
             },
             "line": 25,
@@ -1797,7 +1797,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2131000000,
+              "duration": 4856000000,
               "status": "passed"
             },
             "line": 6,
@@ -1810,7 +1810,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:25:34.210Z",
+        "start_timestamp": "2021-02-24T18:13:43.058Z",
         "line": 23,
         "name": "student should be able to see tables with default info",
         "description": "",
@@ -1820,7 +1820,7 @@
         "steps": [
           {
             "result": {
-              "duration": 97000000,
+              "duration": 139000000,
               "status": "passed"
             },
             "line": 9,
@@ -1832,7 +1832,7 @@
           },
           {
             "result": {
-              "duration": 1227000000,
+              "duration": 1361000000,
               "status": "passed"
             },
             "line": 10,
@@ -1854,7 +1854,7 @@
           },
           {
             "result": {
-              "duration": 1385000000,
+              "duration": 2974000000,
               "status": "passed"
             },
             "line": 11,
@@ -1923,7 +1923,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2700000000,
+              "duration": 269000000,
               "status": "passed"
             },
             "line": 6,
@@ -1936,7 +1936,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-23T06:25:39.059Z",
+        "start_timestamp": "2021-02-24T18:13:45.860Z",
         "line": 11,
         "name": "user management table columns names",
         "description": "",
@@ -1946,7 +1946,7 @@
         "steps": [
           {
             "result": {
-              "duration": 220000000,
+              "duration": 788000000,
               "status": "passed"
             },
             "line": 13,
@@ -1968,7 +1968,7 @@
           },
           {
             "result": {
-              "duration": 2087000000,
+              "duration": 2108000000,
               "status": "passed"
             },
             "line": 14,
@@ -1980,7 +1980,7 @@
           },
           {
             "result": {
-              "duration": 1461000000,
+              "duration": 1637000000,
               "status": "passed"
             },
             "line": 15,

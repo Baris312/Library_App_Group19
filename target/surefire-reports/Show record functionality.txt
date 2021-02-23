@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Show record functionality
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.286 s - in Show record functionality

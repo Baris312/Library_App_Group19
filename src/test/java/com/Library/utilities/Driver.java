@@ -15,50 +15,53 @@ public class Driver
             }
 
 
-        private static WebDriver driver;
+        private static  ThreadLocal<WebDriver> driverpoll = new ThreadLocal<>();
 
 
         public static WebDriver getDriver()
             {
-                if (driver == null)
+                synchronized (Driver.class)
                     {
-                        String browser = ConfigurationReader.getProperty("browser");
-                        switch (browser)
+
+                        if (driverpoll.get() == null)
                             {
-                                case "chrome":
-                                    WebDriverManager.chromedriver().setup();
-                                    driver = new ChromeDriver();
-                                    driver.manage().window().maximize();
-                                    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-                                    break;
-                                case "firefox":
-                                    WebDriverManager.firefoxdriver().setup();
-                                    driver = new FirefoxDriver();
-                                    driver.manage().window().maximize();
-                                    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-                                    break;
-                                default:
-                                    WebDriverManager.chromedriver().setup();
-                                    driver = new ChromeDriver();
-                                    driver.manage().window().maximize();
-                                    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-                                    break;
+                                String browser = ConfigurationReader.getProperty("browser");
+                                switch (browser)
+                                    {
+                                        case "chrome":
+                                            WebDriverManager.chromedriver().setup();
+                                            driverpoll.set(new ChromeDriver());
+                                            driverpoll.get().manage().window().maximize();
+                                            driverpoll.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                                            break;
+                                        case "firefox":
+                                            WebDriverManager.firefoxdriver().setup();
+                                            driverpoll.set(new FirefoxDriver());
+                                            driverpoll.get().manage().window().maximize();
+                                            driverpoll.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                                            break;
+                                        default:
+                                            WebDriverManager.chromedriver().setup();
+                                            driverpoll.set(new ChromeDriver());
+                                            driverpoll.get().manage().window().maximize();
+                                            driverpoll.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                                            break;
 
+                                    }
                             }
+                        return driverpoll.get();
                     }
-                return driver;
-
             }
 
 
 
         public static void closeDriver()
         {
-            if (driver != null)
+            if (driverpoll.get() != null)
             {
-                driver.quit();
+                driverpoll.get().quit();
 
-                driver = null;
+                driverpoll.remove();
             }
 
 
