@@ -15,8 +15,11 @@ public class login_step_definition
         LoginPage lib = new LoginPage();
 
         @Given("user on login page")
-        public void user_on_login_page() {
+        public void user_on_login_page()
+            {
+
             Driver.getDriver().get(ConfigurationReader.getProperty("Lib-19URL"));
+            Driver.getDriver().manage().window().maximize();
         }
 
 
@@ -44,7 +47,7 @@ public class login_step_definition
                  Assert.assertEquals(page,lib.LoginDashBoardTitle.getText());
              }
 
-            Driver.closeDriver();
+           //Driver.closeDriver();
         }
 
 
