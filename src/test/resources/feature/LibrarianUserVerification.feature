@@ -1,3 +1,5 @@
+
+@smoke
 Feature: Verification of user categories
 
   Background: User is already in login page

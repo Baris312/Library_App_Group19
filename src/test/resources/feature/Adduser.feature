@@ -1,7 +1,7 @@
 
 
 
-
+@smoke
 Feature: User should be able to add users from users page
 
 

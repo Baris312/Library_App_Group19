@@ -8,7 +8,6 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Task7_bookcategories_step_definition
@@ -28,11 +27,11 @@ public class Task7_bookcategories_step_definition
         @Then("user sees All options")
         public void user_sees_all_options(List<String > categories)
             {
-                BrowserUtil.wait(1);
+               // BrowserUtil.wait(1);
 
            Select select = new Select(student.bookCategories);
             List<String> listElements = BrowserUtil.getElementsText(select.getOptions());
-            List<String> assertList = new ArrayList<>();
+          //  List<String> assertList = new ArrayList<>();
 
 
                 Assert.assertEquals( "list are not equal", categories,listElements);

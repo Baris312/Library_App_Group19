@@ -3,8 +3,12 @@ package com.Library.utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class Driver
@@ -13,8 +17,6 @@ public class Driver
         private Driver()
             {
             }
-
-
         private static  ThreadLocal<WebDriver> driverpoll = new ThreadLocal<>();
 
 
@@ -34,6 +36,18 @@ public class Driver
                                             driverpoll.get().manage().window().maximize();
                                             driverpoll.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                                             break;
+
+                                        case "remote-chrome":
+                                            ChromeOptions  chromeOptions = new ChromeOptions();
+                                            try
+                                                {
+                                                    URL url = new URL("http://54.197.231.12:4444/wd/hub");
+
+                                                    driverpoll.set(new RemoteWebDriver(url,chromeOptions));
+                                                } catch (MalformedURLException e)
+                                                {
+                                                    e.printStackTrace();
+                                                }
                                         case "firefox":
                                             WebDriverManager.firefoxdriver().setup();
                                             driverpoll.set(new FirefoxDriver());
