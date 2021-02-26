@@ -14,7 +14,7 @@ Feature: Verification of user categories
       | Librarian |
       | Students  |
 
-  @wip
+  
   Scenario: verify user status
     Given user is on the login page
     When Librarian enter "<librarianEmail>" and "<Password>"
