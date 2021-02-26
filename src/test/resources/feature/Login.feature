@@ -1,6 +1,6 @@
 Feature: As a user ,I should be see home page
 
-  @wip
+  
   Scenario Outline: user login verification
     Given user on login page
     When user enter "<userEmail>" and  "<Password>"
