@@ -47,6 +47,9 @@ public  class Librarian_User_page extends ShowRecordPage
         @FindBy (id = "user_groups")
         public WebElement userGroupLink;
 
+        @FindBy (id = "user_status")
+        public WebElement userStatusLink;
+
         @FindBy(xpath = "//th")
         public List<WebElement> headerSelection;
 
